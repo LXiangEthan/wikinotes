@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Docs of EthanRefrain"
-  text: "About the programming Knowledge site"
+  text: "A KnowLedeg Wike Site"
   tagline: My great project tagline
   actions:
     - theme: brand

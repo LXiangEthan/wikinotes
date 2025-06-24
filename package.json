@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "docs:dev": "npm install && vitepress dev docs",
-    "docs:build": "vitepress build docs",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "npm install --no-audit && vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "author": "",

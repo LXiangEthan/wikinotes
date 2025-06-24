@@ -6,12 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "docs:dev": "vitepress dev docs",
-    "docs:build": "npm install --no-audit && vitepress build docs",
+    "docs:build": "npm install --no-audit && node_modules/.bin/vitepress build docs",
     "docs:preview": "vitepress preview docs"
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "vitepress": "^1.6.3"
+  },
+  "engines": {
+    "node": ">=20.0.0"
   }
 }

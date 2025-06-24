@@ -4,15 +4,15 @@ layout: home
 
 hero:
   name: "Docs of EthanRefrain"
-  text: "A KnowLedeg Wike Site"
+  text: "A Development Site"
   tagline: My great project tagline
   actions:
     - theme: brand
       text: Markdown Examples
-      link: /docs/markdown-examples
+      link: /markdown-examples
     - theme: alt
       text: API Examples
-      link: /docs/api-examples
+      link: /api-examples
 
 features:
   - title: Feature A
